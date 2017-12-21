@@ -3,47 +3,55 @@ import './Cards.css';
 
 import Card from '../../components/Card/Card';
 
+import card1 from '../../assets/card_img1.jpg'
+import card2 from '../../assets/card_img2.jpg'
+import card3 from '../../assets/card_img3.jpg'
+import card4 from '../../assets/card_img4.jpg'
+import card5 from '../../assets/card_img5.jpg'
+import card6 from '../../assets/card_img6.jpg'
+
+
 class Cards extends Component {
 		state = {
 			cardContent: [
 				{
 					id: 1,
-					img: 'http://lorempixel.com/450/200/sports/1/',
+					img: card1,
 					headline: 'Lorem ipsum dolor sit amet, consectetur',
 					description: 'Mauris ultrices felis in risus hendrerit, sit amet vestibulum justo aliquam. Curabitur imperdiet vehicula fringilla. In congue dui quis odio vestibulum imperdiet.',
 					link: '#'
 				},
 				{
 					id: 2,
-					img: 'http://lorempixel.com/450/200/sports/2/',
+					img: card2,
 					headline: 'Lorem ipsum dolor sit amet, consectetur',
 					description: 'Mauris ultrices felis in risus hendrerit, sit amet vestibulum justo aliquam. Curabitur imperdiet vehicula fringilla. In congue dui quis odio vestibulum imperdiet.',
 					link: '#'
 				},
 				{
 					id: 3,
-					img: 'http://lorempixel.com/450/200/sports/3/',
+					img: card3,
 					headline: 'Lorem ipsum dolor sit amet, consectetur',
 					description: 'Mauris ultrices felis in risus hendrerit, sit amet vestibulum justo aliquam. Curabitur imperdiet vehicula fringilla. In congue dui quis odio vestibulum imperdiet.',
 					link: '#'
 				},
 				{
 					id: 4,
-					img: 'http://lorempixel.com/450/200/sports/8/',
+					img: card4,
 					headline: 'Lorem ipsum dolor sit amet, consectetur',
 					description: 'Mauris ultrices felis in risus hendrerit, sit amet vestibulum justo aliquam. Curabitur imperdiet vehicula fringilla. In congue dui quis odio vestibulum imperdiet.',
 					link: '#'
 				},
 				{
 					id: 5,
-					img: 'http://lorempixel.com/450/200/sports/5/',
+					img: card5,
 					headline: 'Lorem ipsum dolor sit amet, consectetur',
 					description: 'Mauris ultrices felis in risus hendrerit, sit amet vestibulum justo aliquam. Curabitur imperdiet vehicula fringilla. In congue dui quis odio vestibulum imperdiet.',
 					link: '#'
 				},
 				{
 					id: 6,
-					img: 'http://lorempixel.com/450/200/sports/6/',
+					img: card6,
 					headline: 'Lorem ipsum dolor sit amet, consectetur',
 					description: 'Mauris ultrices felis in risus hendrerit, sit amet vestibulum justo aliquam. Curabitur imperdiet vehicula fringilla. In congue dui quis odio vestibulum imperdiet.',
 					link: '#'

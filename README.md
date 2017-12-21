@@ -2,7 +2,7 @@
 
 Mock up can be found at [Uplabs](https://www.uplabs.com/posts/sheridan-home)
 
-My attempt: [Github Pages]()
+My attempt: [Github Pages](https://xmtrinidad.github.io/SheridanUplabs/)
 
 
 ## About
