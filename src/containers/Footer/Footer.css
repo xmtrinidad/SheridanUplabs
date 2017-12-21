@@ -1,0 +1,35 @@
+.footer-sections {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    justify-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+.copyright {
+    margin: 15px 0;
+    font-size: .68rem;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .footer-sections {
+        grid-template-columns: repeat(4, 140px);
+    }
+}
+
+@media (min-width: 1200px) {
+    .Footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        max-width: 1200px;
+        margin: auto;
+    }
+    .footer-sections {
+        justify-content: start;
+        
+    }
+    .copyright {
+        text-align: left;
+    }
+}

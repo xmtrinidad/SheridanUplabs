@@ -1,0 +1,18 @@
+.Card {
+    margin-bottom: 12px;
+}
+.Card__headline {
+    margin: 16px 0;
+}
+
+.Card__description {
+    font-size: .90rem;
+}
+
+.Card__btn {
+    display: block;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: .85rem;
+    color: inherit;
+}

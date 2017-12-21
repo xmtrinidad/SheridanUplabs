@@ -1,0 +1,10 @@
+.Social {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    max-width: 250px;
+    margin: 20px auto;
+}
